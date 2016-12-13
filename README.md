@@ -10,4 +10,4 @@
 	make w32 LUAPKG=lua的安装路径
 	make install INSTALLDIR=程序安装路径
 
-详细文档请点击[这里]()
+详细文档请点击[这里](https://github.com/liyonglion/luaextend/wiki/manual)
