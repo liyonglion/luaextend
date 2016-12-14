@@ -994,13 +994,14 @@ static luaL_Reg funs[] = {
     REGISTERFUNC(Isexist),
     REGISTERFUNC(Remove),
     REGISTERFUNC(Rename),
-    REGISTERFUNC(Unlink),
     REGISTERFUNC(Getlogin),
     REGISTERFUNC(Copyfile),
+    REGISTERFUNC(Samefile),
 #if defined(LINUX)
     REGISTERFUNC(Link),
     REGISTERFUNC(Symlink),
     REGISTERFUNC(Readlink),
+    REGISTERFUNC(Unlink),
 #endif
 	{NULL,NULL}
 };

@@ -10,6 +10,8 @@ if plat == "linux" then
 	print("\""..a .."\"" .. " Dir :"..path.Dir(a))
 	a = "/"
 	print("\""..a .."\"" .. " Dir :"..path.Dir(a))
+	a = ""
+	print("\""..a .."\"" .. " Dir :"..path.Dir(a))
 elseif plat == "windows" then
 	local a = "c:\\workspace\\luaworkspace\\"
 	print("\""..a .."\"" .. " Dir :"..path.Dir(a))
